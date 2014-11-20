@@ -27,8 +27,8 @@
   "dependencies": {
     "noflo": "~0.5.11",
     "underscore": "~1.5.1",
-    "noflo-webserver": "https://github.com/kenhkan/noflo-webserver/archive/0.0.3+disconnect_on_each_request.tar.gz",
-    "noflo-core": "~0.1.1"
+    "noflo-webserver": "~0.0.4",
+    "noflo-core": "~0.1.11"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
