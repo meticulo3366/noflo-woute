@@ -2,16 +2,13 @@ querystring = require 'querystring'
 _ = require 'underscore'
 noflo = require 'noflo'
 
-accept_all = {}
-accept_all.Access-Control-Allow-Origin = "*"
-
 class FromPorts extends noflo.Component
   constructor: ->
     @setup()
 
     @inPorts =
       status: new noflo.Port 'string'
-      headers: new noflo.Port 'object' || accept_all
+      headers: new noflo.Port 'object'
       body: new noflo.Port 'string'
       request: new noflo.Port 'object'
     @outPorts =
