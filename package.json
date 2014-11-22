@@ -27,7 +27,7 @@
   "dependencies": {
     "noflo": "~0.5.11",
     "underscore": "~1.5.1",
-    "noflo-webserver": "git+https://github.com/meticulo3366/noflo-webserver.git",
+    "noflo-webserver": "https://github.com/kenhkan/noflo-webserver/archive/0.0.3+disconnect_on_each_request.tar.gz",
     "noflo-core": "~0.1.11"
   },
   "devDependencies": {
